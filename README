@@ -1,0 +1,12 @@
+Environment Setup:
+conda create --name detectweed python=3.10
+conda activate detectweed
+pip install ultralytics=8.0.20
+pip uninstall opencv-python opencv-python-headless
+pip install opencv-python
+
+
+CODE:
+yolo.ipynb -> for training model and evaluation
+model will be put in runs/train/weed_yolov5s_results/weights/best.pt
+detect.py -> intrigation of model with camera need to change the path of model in the code!!

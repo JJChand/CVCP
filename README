@@ -10,3 +10,22 @@ CODE:
 yolo.ipynb -> for training model and evaluation
 model will be put in runs/train/weed_yolov5s_results/weights/best.pt
 detect.py -> intrigation of model with camera need to change the path of model in the code!!
+
+
+NOTES FROM CHANDLER
+**NO NEED TO CARE ABOUT THE IMAGES FILE AND MODLE FILES, ONLY NEED TO CARE ABOUT THE CODE FILES, since ARE FOR COPY AND PASTE CONVINENCE**
+**THE ORIGINAL FILE IS DIRECTLY DOWNLOAD FROM GOOGLE DRIVE IN RASPBERRY PI**
+
+FILE PATH: /home/raspberry/Downloads/CVCP
+1, cd to this file path:
+[cd /home/raspberry/Downloads/CVCP]
+or
+2, click the file icon on upper left corner(which should be next to the terminal)-----> find the "home" file----->"Downloads"----->CVCP, then copy the path if Chandler i make a typo mistake
+
+***In CVCP, i construct a virtual environment called 'cp', which inlcudes all required packages already
+Run the linux command to activate the virtual environment:
+[source cp/bin/activate]
+
+If the vr is successfully activated, you can see (cp)raspberry@.....(i forget but not important), what important is that (cp), it means the vr is successfully activated
+
+Then, run the code detect.py

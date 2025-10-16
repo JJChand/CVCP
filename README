@@ -10,6 +10,7 @@ CODE:
 yolo.ipynb -> for training model and evaluation
 model will be put in runs/train/weed_yolov5s_results/weights/best.pt
 detect.py -> intrigation of model with camera need to change the path of model in the code!!
+/tflite/inference.py -> for tflite model inference ( make sure to install all required packages in requirements.txt)
 
 
 NOTES FROM CHANDLER
